@@ -19,7 +19,12 @@
     "memory": "tsx src/02-memory/07-memory.ts",
     "rag": "tsx src/03-rag/08-rag.ts",
     "tool": "tsx src/04-agent/09-tool-calling.ts",
-    "agent": "tsx src/04-agent/10-agent.ts"
+    "agent": "tsx src/04-agent/10-agent.ts",
+    "state-graph": "tsx src/05-langgraph/11-state-graph.ts",
+    "conditional": "tsx src/05-langgraph/12-conditional-edges.ts",
+    "human-loop": "tsx src/05-langgraph/13-human-in-loop.ts",
+    "stream-agent": "tsx src/05-langgraph/14-stream-agent.ts",
+    "multi-agent": "tsx src/05-langgraph/15-multi-agent.ts"
   },
   "dependencies": {
     "@langchain/core": "^1.2.10",
