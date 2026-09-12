@@ -1,0 +1,44 @@
+{
+  "name": "langchain-ts-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LangChain.js 入门学习项目 (DeepSeek via OpenAI-compatible API)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint:biome": "biome check src",
+    "check": "tsc --noEmit",
+    "hello": "tsx src/01-basics/01-hello.ts",
+    "stream": "tsx src/01-basics/02-stream.ts",
+    "messages": "tsx src/01-basics/03-messages.ts",
+    "prompt": "tsx src/01-basics/04-prompt-template.ts",
+    "parser": "tsx src/01-basics/05-output-parser.ts",
+    "chain": "tsx src/01-basics/06-chain.ts",
+    "memory": "tsx src/02-memory/07-memory.ts",
+    "rag": "tsx src/03-rag/08-rag.ts",
+    "tool": "tsx src/04-agent/09-tool-calling.ts",
+    "agent": "tsx src/04-agent/10-agent.ts",
+    "state-graph": "tsx src/05-langgraph/11-state-graph.ts",
+    "conditional": "tsx src/05-langgraph/12-conditional-edges.ts",
+    "human-loop": "tsx src/05-langgraph/13-human-in-loop.ts",
+    "stream-agent": "tsx src/05-langgraph/14-stream-agent.ts",
+    "multi-agent": "tsx src/05-langgraph/15-multi-agent.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.10",
+    "@langchain/langgraph": "^1.4.14",
+    "@langchain/openai": "^1.5.12",
+    "@langchain/textsplitters": "^1.0.1",
+    "dotenv": "^17.2.2",
+    "langchain": "^1.5.11",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
